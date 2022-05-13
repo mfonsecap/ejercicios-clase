@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;500;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
 body {
   padding-top: 100px;
@@ -17,8 +17,12 @@ body {
   color: #fff !important;
 }
 
-.icons {
-  font-size: 45px;
+.fa-google {
+  background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
 }
 
 .list-unstyled li a {
@@ -26,9 +30,28 @@ body {
   text-decoration: none;
 }
 
+.btn1 {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
 .title {
   font-size: 38pt;
   font-weight: 900;
+}
+
+.subtitle {
+  font-size: 30pt;
+  font-weight: 900;
+}
+
+.subtitle2 {
+  font-size: 18pt;
+  font-weight: 100;
+}
+
+.bold {
+  font-weight: 800;
 }
 
 .copyright {
@@ -41,11 +64,16 @@ body {
   font-size: 25px;
 }
 
+.card {
+  max-width: 350px;
+}
+
+.price {
+  font-size: 35pt;
+}
+
 /* MEDIA QUERIES */
 @media screen and (max-width: 760px) {
-  .taskadename {
-    visibility: hidden;
-  }
   .title {
     font-size: 30pt;
   }
